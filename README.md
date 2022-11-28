@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @tungds232
 - 👀 I’m interested in C,C++,C#, Python, Infrastructure, Network, Linux.
-- 🌱 I’m currently learning Devops
+- 🌱 I’m being Devops Engineer
 - 📫 How to reach me by my email: tungds232@gmail.com
 
 <!---
