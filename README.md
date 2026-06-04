@@ -2,6 +2,19 @@
 
 ### Senior AI DevOps Engineer · Multi-Cloud · Platform & Automation
 
+<p>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white" alt="Azure" />
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white" alt="GCP" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white" alt="Terraform" />
+  <img src="https://img.shields.io/badge/Pulumi-8A3391?style=flat&logo=pulumi&logoColor=white" alt="Pulumi" />
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white" alt="Ansible" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
+</p>
+
 11+ years across **Software Engineering → QA → SysOps → DevOps → AI Cloud Platform Engineering**. I design and ship automated deployment solutions across on-premise and multi-cloud (AWS, Azure, GCP, Hetzner) with Terraform, Pulumi & Ansible — and I embed AI into every layer of the stack, from coding and infrastructure to operations, consistently hitting **2–3x productivity gains**.
 
 I independently operate a production AI platform serving **465+ users (100+ daily active)**, and build indie SaaS products end-to-end on a self-hosted Kubernetes homelab.
@@ -57,6 +70,19 @@ I build and operate real, production-grade SaaS products on my own infrastructur
 Worked with international customers across **Japan, Korea, Germany, India & Switzerland**. Strengths in technical leadership, strategic planning, and building collaborative, high-performing teams that deliver measurable business growth.
 
 > *"Everything in life is a choice you make."* — Always learning; technology changes fast.
+
+---
+
+## 📈 GitHub Stats
+
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=tungds232&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tungds232&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+</p>
+
+<p>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tungds232&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
 
 ---
 
