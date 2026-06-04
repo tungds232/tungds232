@@ -1,4 +1,4 @@
-# Hi, I'm Steve Dang (Dang Son Tung) 👋
+# Hi, I'm Tung Dang (Steve Dang) 👋
 
 ### Senior AI DevOps Engineer · Multi-Cloud · Platform & Automation
 
