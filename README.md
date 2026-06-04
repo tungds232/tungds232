@@ -81,7 +81,7 @@ Worked with international customers across **Japan, Korea, Germany, India & Swit
 </p>
 
 <p>
-  <img src="https://streak-stats.demolab.com/?user=tungds232&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.tungds232.com/?user=tungds232&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
