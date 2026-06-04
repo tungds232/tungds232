@@ -1,4 +1,4 @@
-# Hi, I'm Tung Dang (Steve Dang) 👋
+# Hi, I'm Steve Dang (Dang Son Tung) 👋
 
 ### Senior AI DevOps Engineer · Multi-Cloud · Platform & Automation
 
@@ -15,7 +15,7 @@ I independently operate a production AI platform serving **465+ users (100+ dail
 - **Cloud & Infrastructure** — Design scalable, reliable, secure infra on AWS (EKS, KOPS, ECS, EC2, Lambda, RDS Aurora/MariaDB, DocumentDB, Redshift, CloudFront, Route53, NLB/ALB), Azure, GCP & Hetzner. Manage 10+ AWS accounts.
 - **Migrations** — Lead end-to-end on-prem → cloud migrations (infra + CI/CD). Migrated platforms On-Prem→AWS, GCP→AWS (−40% operational complexity), Jenkins→GitLab→GitHub Actions, Jira→Azure DevOps, Confluence→SharePoint.
 - **CI/CD & Automation** — Build reusable pipeline templates spanning Jenkins, Azure DevOps, GitLab CI & GitHub Actions. Cut pipeline build time **29m → 15m (−50%)** with autoscaling Docker runners + caching.
-- **AI Platform Engineering** — Run an internal AI chatbot/agent platform (Open WebUI) with HA, autoscaling, caching, RAG, RDS, and MCP connectors into Confluence, Jira, GitLab, SharePoint & Azure DevOps. RBAC-aware "super agent" with Microsoft OAuth identity.
+- **AI Platform Engineering** — Build and run internal AI chatbot/agent platforms (Open WebUI) with HA, autoscaling, caching, RAG, RDS, and MCP connectors into enterprise knowledge sources (Confluence, Jira, GitLab, SharePoint & Azure DevOps). RBAC-aware "super agent" with Microsoft OAuth identity.
 - **Observability** — Migrated logging CloudWatch → New Relic; built error-log detection (Lambda + New Relic → MS Teams + DynamoDB) and engineering-metrics dashboards (Jira/GitLab/Gerrit/ADO → Power BI).
 
 ---
@@ -35,10 +35,10 @@ I independently operate a production AI platform serving **465+ users (100+ dail
 
 ## 🌟 Highlights
 
-- 🤖 **Internal AI Platform (HRSQ)** — Self-managed AI chat + agent tool for 465+ users / 100+ DAU. MCP connectors to enterprise knowledge sources, IAM via Microsoft login, prompt caching for cost reduction, HA + autoscaling.
-- 🔐 **Security-driven Migrations** — Led platform migrations under active security incidents (GitLab→GitHub Cloud Enterprise in 9 days from zero), keeping production running with minimal downtime.
-- 📊 **Engineering Metrics Tracker** — Unified VN + global team metrics from Jira & Azure DevOps into fast Power BI dashboards, plus sprint-level tracking — replacing a slow manual datalake→Superset flow.
-- 🏗️ **HRS G2M Super Agent** — Centralized RBAC-aware AI agent connecting all HRS knowledge sources (SharePoint, ADO, Confluence, OneDrive) as a single intelligent interface per persona.
+- 🤖 **Internal AI Platform** — Self-managed AI chat + agent tool serving 465+ users / 100+ DAU. MCP connectors to enterprise knowledge sources, IAM via Microsoft login, prompt caching for cost reduction, HA + autoscaling.
+- 🔐 **Security-driven Migrations** — Led platform migrations under active security incidents (self-hosted GitLab → GitHub Cloud Enterprise in 9 days from zero), keeping production running with minimal downtime.
+- 📊 **Engineering Metrics Tracker** — Unified team metrics from Jira & Azure DevOps into fast Power BI dashboards, plus sprint-level tracking — replacing a slow manual datalake→Superset flow.
+- 🏗️ **RBAC-aware Super Agent** — Centralized AI agent connecting multiple enterprise knowledge sources (SharePoint, Azure DevOps, Confluence, OneDrive) as a single intelligent interface, with role-based access per persona.
 - 🏠 **Homelab + Indie SaaS** — Run a single-node k3s cluster (Traefik, HashiCorp Vault, Cloudflare Tunnels, self-hosted GitHub Actions runners) and ship production SaaS products end-to-end.
 
 ---
