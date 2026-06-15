@@ -9,10 +9,6 @@ on:
   schedule:
     - cron: "17 */6 * * *"   # every 6 hours (offset :17 to dodge top-of-hour load)
   workflow_dispatch: {}        # manual "Run workflow" button
-  push:
-    paths:
-      - ".github/workflows/refresh-stats.yml"
-      - ".github/scripts/refresh-stats.sh"
 
 permissions:
   contents: write
@@ -38,8 +34,18 @@ jobs:
           git add assets/*.svg
           if git diff --cached --quiet; then
             echo "No changes — stats unchanged or all sources rate-limited (kept last-good)."
-          else
-            git commit -m "chore: refresh GitHub stat cards [skip ci]"
-            git push
-            echo "Pushed refreshed stat cards."
+            exit 0
           fi
+          git commit -m "chore: refresh GitHub stat cards [skip ci]"
+          # Push with rebase-retry to survive a concurrent push to main.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed refreshed stat cards (attempt $attempt)."
+              exit 0
+            fi
+            echo "Push attempt $attempt rejected; rebasing on latest main and retrying..."
+            git pull --rebase --autostash origin main || true
+            sleep 3
+          done
+          echo "::error::Failed to push refreshed stat cards after 5 attempts."
+          exit 1
