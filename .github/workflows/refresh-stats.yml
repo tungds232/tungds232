@@ -1,0 +1,45 @@
+name: Refresh GitHub Stats
+
+# Pre-renders the profile stat cards into static SVGs committed to this repo.
+# The README points at those static files, so it NEVER shows a live
+# "rate limit / failed" card to visitors. If every source is rate-limited on a
+# given run, the refresh script keeps the last-good SVGs untouched.
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours (offset :17 to dodge top-of-hour load)
+  workflow_dispatch: {}        # manual "Run workflow" button
+  push:
+    paths:
+      - ".github/workflows/refresh-stats.yml"
+      - ".github/scripts/refresh-stats.sh"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-stats
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Refresh stat SVGs (multi-source fallback, keep-last-good)
+        run: bash .github/scripts/refresh-stats.sh
+
+      - name: Commit updated SVGs (only if changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          if git diff --cached --quiet; then
+            echo "No changes — stats unchanged or all sources rate-limited (kept last-good)."
+          else
+            git commit -m "chore: refresh GitHub stat cards [skip ci]"
+            git push
+            echo "Pushed refreshed stat cards."
+          fi

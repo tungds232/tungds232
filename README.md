@@ -75,13 +75,18 @@ Worked with international customers across **Japan, Korea, Germany, India & Swit
 
 ## 📈 GitHub Stats
 
+<!--
+  These are STATIC SVGs pre-rendered every 6h by .github/workflows/refresh-stats.yml.
+  The workflow keeps the last-good card if the API is rate-limited, so this
+  section never shows a "failed / rate limit" error to visitors.
+-->
 <p>
-  <img height="165" src="https://github-readme-stats.tungds232.com/api?username=tungds232&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.tungds232.com/api/top-langs/?username=tungds232&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+  <img height="165" src="./assets/github-stats.svg" alt="GitHub Stats" />
+  <img height="165" src="./assets/top-langs.svg" alt="Top Languages" />
 </p>
 
 <p>
-  <img src="https://streak-stats.tungds232.com/?user=tungds232&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="./assets/streak.svg" alt="GitHub Streak" />
 </p>
 
 ---
