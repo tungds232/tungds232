@@ -1,4 +1,4 @@
-# Hi, I'm Tung Dang (Steve Dang) 👋
+# Hi, I'm Tung Dang 👋
 
 ### Senior AI DevOps Engineer · Multi-Cloud · Platform & Automation
 
@@ -17,7 +17,7 @@
 
 11+ years across **Software Engineering → QA → SysOps → DevOps → AI Cloud Platform Engineering**. I design and ship automated deployment solutions across on-premise and multi-cloud (AWS, Azure, GCP, Hetzner) with Terraform, Pulumi & Ansible — and I embed AI into every layer of the stack, from coding and infrastructure to operations, consistently hitting **2–3x productivity gains**.
 
-I independently operate a production AI platform serving **465+ users (100+ daily active)**, and build indie SaaS products end-to-end on a self-hosted Kubernetes homelab.
+I independently operate a production AI platform serving **465 users (100+ daily active)**, and build indie SaaS products end-to-end on a self-hosted Kubernetes homelab.
 
 📫 **tungds232@gmail.com** · 🌐 [tungds232.com](https://tungds232.com)
 
@@ -25,11 +25,11 @@ I independently operate a production AI platform serving **465+ users (100+ dail
 
 ## 🚀 What I Do
 
-- **Cloud & Infrastructure** — Design scalable, reliable, secure infra on AWS (EKS, KOPS, ECS, EC2, Lambda, RDS Aurora/MariaDB, DocumentDB, Redshift, CloudFront, Route53, NLB/ALB), Azure, GCP & Hetzner. Manage 10+ AWS accounts.
-- **Migrations** — Lead end-to-end on-prem → cloud migrations (infra + CI/CD). Migrated platforms On-Prem→AWS, GCP→AWS (−40% operational complexity), Jenkins→GitLab→GitHub Actions, Jira→Azure DevOps, Confluence→SharePoint.
+- **Cloud & Infrastructure** — Design scalable, reliable, secure infra on AWS (EKS, KOPS, ECS, EC2, Lambda, RDS Aurora/MariaDB, DocumentDB, CloudFront, Route53, NLB/ALB), Azure, GCP & Hetzner. Operate **12 AWS accounts spanning 8+ teams** (4 directly owned, 8+ supported cross-team).
+- **Migrations** — Drive end-to-end on-prem → cloud migrations (infra + CI/CD). As the **sole engineer**, unblocked a 3-year-stalled On-Prem→AWS migration of **100+ apps**; also GCP→AWS, Jenkins→GitLab→GitHub Actions, Jira→Azure DevOps, Confluence→SharePoint.
 - **CI/CD & Automation** — Build reusable pipeline templates spanning Jenkins, Azure DevOps, GitLab CI & GitHub Actions. Cut pipeline build time **29m → 15m (−50%)** with autoscaling Docker runners + caching.
 - **AI Platform Engineering** — Build and run internal AI chatbot/agent platforms (Open WebUI) with HA, autoscaling, caching, RAG, RDS, and MCP connectors into enterprise knowledge sources (Confluence, Jira, GitLab, SharePoint & Azure DevOps). RBAC-aware "super agent" with Microsoft OAuth identity.
-- **Observability** — Migrated logging CloudWatch → New Relic; built error-log detection (Lambda + New Relic → MS Teams + DynamoDB) and engineering-metrics dashboards (Jira/GitLab/Gerrit/ADO → Power BI).
+- **Observability** — Migrated logging CloudWatch → New Relic; built error-log detection (Lambda + New Relic → MS Teams + DynamoDB) and unified engineering-metrics dashboards (Jira + Azure DevOps → MSSQL → Power BI).
 
 ---
 
@@ -42,15 +42,15 @@ I independently operate a production AI platform serving **465+ users (100+ dail
 **AI/LLM:** Open WebUI · MCP · RAG · LiteLLM · Prompt Engineering
 **Observability:** New Relic · Grafana · PRTG · Graylog
 **Languages:** Python · Bash · TypeScript/Node.js · C/C++
-**Data:** PostgreSQL · Supabase · RDS · Redshift · DynamoDB
+**Data:** PostgreSQL · MSSQL · Supabase · RDS Aurora/MariaDB · DocumentDB · DynamoDB
 
 ---
 
 ## 🌟 Highlights
 
-- 🤖 **Internal AI Platform** — Self-managed AI chat + agent tool serving 465+ users / 100+ DAU. MCP connectors to enterprise knowledge sources, IAM via Microsoft login, prompt caching for cost reduction, HA + autoscaling.
+- 🤖 **Internal AI Platform** — Self-managed AI chat + agent tool serving 465 users / 100+ DAU. MCP connectors to enterprise knowledge sources, IAM via Microsoft login, **~27% AI infra cost reduction ($15K→$11K/mo)** via prompt caching, HA + autoscaling. Now expanding into a company-wide AI Gateway.
 - 🔐 **Security-driven Migrations** — Led platform migrations under active security incidents (self-hosted GitLab → GitHub Cloud Enterprise in 9 days from zero), keeping production running with minimal downtime.
-- 📊 **Engineering Metrics Tracker** — Unified team metrics from Jira & Azure DevOps into fast Power BI dashboards, plus sprint-level tracking — replacing a slow manual datalake→Superset flow.
+- 📊 **Engineering Metrics Platform** — The org already had Power BI for its 5 Azure DevOps teams; self-initiated bridging **15+ Jira-based teams** (previously Excel-only) into the same pipeline via ETL — a single unified dashboard across the whole organization for the first time.
 - 🏗️ **RBAC-aware Super Agent** — Centralized AI agent connecting multiple enterprise knowledge sources (SharePoint, Azure DevOps, Confluence, OneDrive) as a single intelligent interface, with role-based access per persona.
 - 🏠 **Homelab + Indie SaaS** — Run a single-node k3s cluster (Traefik, HashiCorp Vault, Cloudflare Tunnels, self-hosted GitHub Actions runners) and ship production SaaS products end-to-end.
 
